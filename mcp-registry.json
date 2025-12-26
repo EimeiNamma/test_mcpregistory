@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "count": 1
+    "count": 4
   },
   "servers": [
     {
@@ -27,6 +27,84 @@
           "status": "active",
           "publishedAt": "2025-11-28T00:00:00.000000Z",
           "updatedAt": "2025-11-28T00:00:00.000000Z",
+          "isLatest": true
+        }
+      }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+        "name": "oraios/serena",
+        "description": "Serena: Professional coding agent with semantic understanding for IDE assistance and codebase management.",
+        "version": "1.0.0",
+        "packages": [
+          {
+            "registryType": "uv",
+            "identifier": "serena",
+            "version": "1.0.0",
+            "transport": {
+              "type": "stdio"
+            }
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "publishedAt": "2025-12-26T00:38:41.087Z",
+          "updatedAt": "2025-12-26T00:38:41.087Z",
+          "isLatest": true
+        }
+      }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+        "name": "io.github.playwright/mcp",
+        "description": "Playwright MCP server for web automation and browser testing.",
+        "version": "1.0.0",
+        "packages": [
+          {
+            "registryType": "npm",
+            "identifier": "@playwright/mcp",
+            "version": "1.0.0",
+            "transport": {
+              "type": "stdio"
+            }
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "publishedAt": "2025-12-26T00:38:41.087Z",
+          "updatedAt": "2025-12-26T00:38:41.087Z",
+          "isLatest": true
+        }
+      }
+    },
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+        "name": "upstash/context7-mcp",
+        "description": "Context7 MCP server by Upstash for documentation and context management.",
+        "version": "1.0.0",
+        "packages": [
+          {
+            "registryType": "npm",
+            "identifier": "@upstash/context7-mcp",
+            "version": "1.0.0",
+            "transport": {
+              "type": "stdio"
+            }
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/official": {
+          "status": "active",
+          "publishedAt": "2025-12-26T00:49:53.043Z",
+          "updatedAt": "2025-12-26T00:49:53.048Z",
           "isLatest": true
         }
       }
