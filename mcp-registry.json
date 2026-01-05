@@ -63,11 +63,12 @@
         "version": "1.0.0",
         "packages": [
           {
-            "registryType": "npm",
+            "registryType": "npx",
             "identifier": "@upstash/context7-mcp",
             "version": "1.0.0",
             "transport": {
-              "type": "stdio"
+              "type": "stdio",
+              "args": ["-y", "@upstash/context7-mcp@latest"]
             }
           }
         ]
