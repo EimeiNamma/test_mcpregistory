@@ -126,10 +126,10 @@
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
         "name": "markitdown/mcp",
         "description": "Markitdown MCP server for document conversion and markdown generation.",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "packages": [
           {
-            "registryType": "npm",
+            "registryType": "pypi",
             "identifier": "markitdown-mcp",
             "version": "0.0.1a4",
             "transport": {
@@ -143,7 +143,7 @@
         "io.modelcontextprotocol.registry/official": {
           "status": "active",
           "publishedAt": "2025-12-26T03:47:10.934Z",
-          "updatedAt": "2025-12-26T03:47:10.935Z",
+          "updatedAt": "2026-01-05T02:48:53.048Z",
           "isLatest": true
         }
       }
