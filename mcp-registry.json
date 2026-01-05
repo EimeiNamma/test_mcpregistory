@@ -126,15 +126,16 @@
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
         "name": "markitdown/mcp",
         "description": "Markitdown MCP server for document conversion and markdown generation.",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "packages": [
           {
-            "registryType": "uv",
+            "registryType": "npm",
             "identifier": "markitdown-mcp",
-            "version": "1.0.0",
+            "version": "0.0.1a4",
             "transport": {
               "type": "stdio"
-            }
+            },
+            "runtime_hint": "uvx"
           }
         ]
       },
