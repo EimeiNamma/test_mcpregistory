@@ -74,7 +74,15 @@
             "transport": {
               "type": "stdio"
             },
-            "runtime_hint": "npx"
+            "runtime_hint": "npx",
+            "runtimeArguments": [
+              {
+                "is_required": true,
+                "format": "string",
+                "value": "--allowed-origins=localhost;localhost:*",
+                "type": "positional"
+              }
+            ]
           }
         ]
       },
